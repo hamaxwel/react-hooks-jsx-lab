@@ -1,9 +1,9 @@
-import React from "react";
-import NavBar from "./NavBar";
-import Home from "./Home";
-import About from "./About";
+import React from 'react';
+import NavBar from './components/NavBar';
+import Home from './components/Home';
+import About from './components/About';
 
-function App() {
+const App = () => {
   return (
     <div>
       <NavBar />
@@ -11,6 +11,6 @@ function App() {
       <About />
     </div>
   );
-}
+};
 
 export default App;
